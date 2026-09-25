@@ -167,7 +167,7 @@ uint16_t connect_count = 0;
 bool ap_connect = false;
 bool wifi_scan_active = false;
 bool has_static_ip = false;
-int led_gpio = -1;  // -1 means LED disabled (none)
+int led_gpio = 2;  // -1 means LED disabled (none)
 uint8_t led_lowactive = 0;  // 0 = active-high (default), 1 = active-low (inverted)
 uint8_t led_toggle = 0;  // Shared toggle state for packet-driven LED flicker
 
